@@ -7,7 +7,8 @@
     "dev": "react-router dev --host 0.0.0.0 --port 62018",
     "build": "react-router build",
     "start": "serve -s build/client -l 62018",
-    "preview": "serve -s build/client -l 62018"
+    "preview": "serve -s build/client -l 62018",
+    "test": "node --test scripts/freeze.test.mjs scripts/storage.test.mjs"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
