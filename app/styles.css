@@ -1,0 +1,11 @@
+:root { font-family: Inter, "PingFang SC", sans-serif; color: #111827; background: #edf2f7; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.shell { max-width: 1240px; margin: 0 auto; padding: 36px 22px 72px; }
+.hero { display: flex; justify-content: space-between; gap: 24px; padding: 30px; border-radius: 22px; background: linear-gradient(135deg, #0f172a, #1e3a8a); color: white; margin-bottom: 24px; }
+.hero h1 { color: white; margin: 8px 0 10px; }
+.hero p, .hero .mantine-Text-root { color: #dbeafe; }
+.eyebrow { letter-spacing: .14em; font-size: 12px; }
+.layout { display: grid; grid-template-columns: minmax(0, 1.75fr) minmax(300px, .8fr); gap: 20px; }
+.row { border-bottom: 1px solid #e5e7eb; padding: 12px 0; }
+@media (max-width: 820px) { .layout { grid-template-columns: 1fr; } .hero { flex-direction: column; } }

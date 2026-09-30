@@ -1,0 +1,41 @@
+{
+  "name": "pair-wise-yf-53",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "react-router dev --host 0.0.0.0 --port 62018",
+    "build": "react-router build",
+    "start": "serve -s build/client -l 62018",
+    "preview": "serve -s build/client -l 62018"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@hookform/resolvers": "^5.2.0",
+    "@lingui/core": "^5.5.0",
+    "@lingui/react": "^5.5.0",
+    "@mantine/core": "^8.2.0",
+    "@mantine/hooks": "^8.2.0",
+    "@react-router/node": "^7.8.2",
+    "@reduxjs/toolkit": "^2.8.2",
+    "isbot": "^5",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hook-form": "^7.62.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.8.2",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.18.4",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "serve": "^14.2.4",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
+  }
+}
